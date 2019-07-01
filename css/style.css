@@ -1,0 +1,42 @@
+nav {
+  border: unset;
+  background-color: orange;
+}
+.navbar {
+  color: black;
+}
+.navbar-brand {
+  text-align: center;
+  margin-left: 70px;
+  margin-top: -10px;
+  font-weight: bold;
+}
+.search {
+  margin-top: -44px;
+  margin-left: 85% !important;
+  width: 12% !important;
+  background-color: orange;
+  height: 45px;
+  border-radius: 50px;
+  position: absolute;
+  transition: 0.5s;
+  color: white;
+}
+.text-search {
+  color: black !important;
+}
+.search i {
+  margin-right: -8px !important;
+  margin-top: -42px;
+}
+.search:hover {
+  margin-left: 15% !important;
+  margin-top: 5px;
+  color: white;
+  width: 70% !important;
+  background-color: orange;
+  box-shadow: 1px 1px rgba(0, 0, 0, 0.7);
+}
+.search i:hover {
+  margin-top: -14%;
+}
