@@ -7,7 +7,7 @@ nav {
 }
 .navbar-brand {
   text-align: center;
-  margin-left: 70px;
+  margin-left: 85px;
   margin-top: -10px;
   font-weight: bold;
 }
@@ -36,6 +36,7 @@ nav {
   width: 70% !important;
   background-color: orange;
   box-shadow: 1px 1px rgba(0, 0, 0, 0.7);
+  z-index: 2;
 }
 .search i:hover {
   margin-top: -14%;
