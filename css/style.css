@@ -41,14 +41,15 @@ nav {
   margin-top: -14%;
 }
 .card-item {
-  height: 345px;
+  font-size: 12px;
 }
 .card-item h5 {
+  font-size: 15px;
   font-weight: bolder;
   color: red !important;
 }
 .detail-btn {
-  margin-top: 40px;
+  margin-bottom: 0;
   background-color: orange;
   color: white !important;
   font-weight: bolder !important;
@@ -61,8 +62,13 @@ nav {
   margin-left: 19px;
   text-align: center;
 }
+.rating {
+  font-size: 12px !important;
+  margin-left: -20px !important;
+}
 .content-detail p {
   font-size: 12px;
+  text-align: center;
 }
 .price-detail h5 {
   font-weight: bolder;
@@ -93,4 +99,12 @@ nav {
 }
 .seller-detail {
   margin-top: -35px;
+}
+.item-detail {
+  margin-top: -30px;
+}
+.buy-btn {
+  width: 100%;
+  margin-top: -12px;
+  background-color: orange;
 }
