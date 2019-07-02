@@ -7,7 +7,6 @@ nav {
 }
 .navbar-brand {
   text-align: center;
-  margin-left: 85px;
   margin-top: -10px;
   font-weight: bold;
 }
@@ -41,7 +40,15 @@ nav {
 .search i:hover {
   margin-top: -14%;
 }
+.card-item {
+  height: 320px;
+}
 .card-item h5 {
   font-weight: bolder;
-  color: red;
+  color: red !important;
+}
+.detail-btn {
+  background-color: orange;
+  color: white !important;
+  font-weight: bolder !important;
 }
