@@ -41,3 +41,7 @@ nav {
 .search i:hover {
   margin-top: -14%;
 }
+.card-item h5 {
+  font-weight: bolder;
+  color: red;
+}
