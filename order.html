@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
+  <title>Starter Template - Materialize</title>
+
+  <!-- CSS  -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+</head>
+<body>
+  <nav class="navbar" role="navigation">
+    <div class="nav-wrapper">
+      <a href="" class="navbar-brand">Shooping</a>
+      <ul class="right hide-on-med-and-down">
+        <li><a href="#">Beranda</a></li>
+      </ul>
+
+      <ul id="nav-mobile" class="sidenav">
+        <li><a href="index.html">Beranda</a></li>
+      </ul>
+      <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons medium">menu</i></a>
+    </div>
+  </nav>
+  <form action="">
+    <div class="form-group container search">
+      <input type="text" class="form-control text-search" id="search" aria-describedby="search" placeholder="    Type to search.">
+      <i class="material-icons small float-right">search</i>
+    </div>
+  </form>
+
+  <div class="container">
+    <div class="row">
+      <div class="col s2 order-card">
+        <img src="assets/img/kuma_line.jpeg">
+      </div>
+      <div class="col s10 order-card">
+        <h5>Kuma line T-Shirt</h5>
+        <h3>Rp 150.000</h3>
+        <div class="row item-count">
+          <div class="input-field">
+            <input type="text" id="autocomplete-input" class="autocomplete">
+            <label for="autocomplete-input">Jumlah item</label>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="item-selection">
+      <h4>Pilih warna</h4>
+      <div class="row item-color">
+        <div class="col">
+          <label>
+            <input type="checkbox" class="filled-in"/>
+            <span>Putih</span>
+          </label>
+        </div>
+        <div class="col">
+          <label>
+            <input type="checkbox" class="filled-in"/>
+            <span>Merah</span>
+          </label>
+        </div>
+        <div class="col">
+          <label>
+            <input type="checkbox" class="filled-in"/>
+            <span>Hitam</span>
+          </label>
+        </div>
+      </div>
+      <div class="row">
+        <div class="container">
+          <div class="input-field">
+            <textarea id="textarea1" class="materialize-textarea"></textarea>
+            <label for="textarea1">Nama penerima</label>
+          </div>
+          <div class="input-field">
+            <textarea id="textarea1" class="materialize-textarea"></textarea>
+            <label for="textarea1">Nomer telpon</label>
+          </div>
+          <a class="waves-effect waves-light btn buy-btn" href="order.html">Pilih lokasi anda melalui gps</a>
+        </div>
+      </div>
+      <div class="row">
+        <div class="container">
+          <label>
+            <input type="checkbox" />
+            <span>Dengan ini anda menyetujui semua persyaratan dari kami, Barang yang kamu pesan dapat kamu bayar setelah sampai di rumah kamu.</span>
+          </label>
+        </div>
+      </div>
+    </div>
+  </div>
+  <a class="waves-effect waves-light btn buy-btn" href="order.html">Buat pesanan</a>
+  
+  <!--  Scripts-->
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="js/materialize.js"></script>
+  <script src="js/init.js"></script>
+
+  </body>
+</html>

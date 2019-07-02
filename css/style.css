@@ -108,3 +108,24 @@ nav {
   margin-top: -12px;
   background-color: orange;
 }
+.order-card img {
+  margin-top: 10px;
+  height: 120px;
+}
+.order-card h5 {
+  text-align: left;
+  margin-top: 7px;
+  margin-left: -50px;
+  font-size: 23px;
+  font-weight: bolder;
+  color: orange !important;
+}
+.order-card h3 {
+  font-weight: bolder;
+  color: red !important;
+  margin-left: -50px;
+}
+.item-count {
+  margin-left: -50px !important;
+  margin-top: -11px;
+}
